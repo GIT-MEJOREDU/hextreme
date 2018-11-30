@@ -5,3 +5,7 @@ get '/index' do
     session["palabra"]=palabra
     erb(:index)
 end
+
+get '/' do
+    redirect '/index'
+end
