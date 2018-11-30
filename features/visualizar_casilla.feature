@@ -4,4 +4,6 @@ Feature: Visualizar casillas de palabra oculta
     para ganar
 
 Scenario: Deben visualizarse el numero de letras que conforman la palabra
-Scenario: Debe haber cinco palabras diferentes
+    Given Ingreso al juego
+    When La palabra por adivinar es "sprint"
+    Then Se muestran "_ _ _ _ _ _" espacios de palabra

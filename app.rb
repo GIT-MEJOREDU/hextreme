@@ -1,6 +1,8 @@
 require 'sinatra'
-require './config'
 
-get '/' do
-
+get '/index' do 
+    palabra="_ _ _ _ _ _"
+    session["palabra"]=palabra
+    erb(:index)
 end
+
