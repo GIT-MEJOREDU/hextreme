@@ -4,4 +4,3 @@ Feature: Visualizar casillas de palabra oculta
     para ganar
 
 Scenario: Deben visualizarse el numero de letras que conforman la palabra
-Scenario: Debe haber cinco palabras diferentes

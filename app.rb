@@ -1,6 +1,6 @@
 require 'sinatra'
 require './config'
 
-get '/' do
-
+get '/hextreme' do
+    erb(:index)
 end
