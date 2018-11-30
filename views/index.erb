@@ -9,5 +9,14 @@
 <body>
     <h1 align="center">Ahorcado eXtreme</h1><br>
     <h1 align="center"><%= session["palabra"]%></h1>
+    <h1 align="center">________________________</h1>
+    <div align="center">
+        <form action="/adivinar" method="POST"> 
+                <input  type="text" name="letra_intento" id="letra_intento">
+                <input  type="submit" value="Enviar">
+        </form>
+            
+    </div>
+    
 </body>
 </html>
