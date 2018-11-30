@@ -5,4 +5,3 @@ get '/index' do
     session["palabra"]=palabra
     erb(:index)
 end
-
